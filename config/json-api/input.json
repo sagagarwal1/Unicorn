@@ -1,0 +1,417 @@
+{  
+   "messageID":"700026536",
+   "payment":{  
+      "sourcePaymentID":"700026536",
+      "platform":"SPOT",
+      "sourcePlatformID":"1",
+      "bookingSystemOrderID":"5555",
+      "bookingSystemName":"SPOT System",
+      "orderID":"100047998",
+      "amount":"924642.00",
+      "currency":"AUD",
+      "feeAmount":"1.0",
+      "feeCurrency":"ANG",
+      "creationDate":"2018/02/23 22:40:33",
+      "creationDateUTC":"2018/02/24 06:40:33",
+      "orderTypeName":"Sell",
+      "itemTypeName":"Order Settlement Payment",
+      "lineItemID":"1",
+      "confirmationNumber":"9405852654",
+      "lastUpdated":"2018/02/22 22:40:33",
+      "lastUpdatedUTC":"2018/02/23 06:40:33",
+      "method":"Draft",
+      "reasonForTransaction":"[good name]",
+      "orderReasonForTransaction":"[good name]",
+      "receiverInformationText":"[good name]",
+      "reference":"[good name]",
+      "expectedValueDate":"2018/02/22",
+      "deadlineDate":"2018/02/22",
+      "isDoddFrank":"1",
+      "notifiedPerson":{  
+         "name":"[good name]",
+         "email":"[good name]"
+      },
+      "byOrderOf":"[good name]",
+      "BIC":"[good name]",
+      "yourID":"[good name]",
+      "WUReceiver":{  
+         "name":"[good name]",
+         "countryName":"India",
+         "mobilePhoneNumber":"9960688607"
+      },
+      "lineItemNo":"1",
+      "settlementCurrency":"BMD",
+      "buySell":"Sell",
+      "isOutgoing":"true",
+      "branchID":"59",
+      "delivery":{  
+         "ID":"123",
+         "address":{  
+            "line1":"[good name]",
+            "line2":"[good name]",
+            "line3":"[good name]",
+            "city":"pune",
+            "stateOrProvinceCode":"MA",
+            "countryCode":"US",
+            "postalCode":"1923"
+         },
+         "statusName":"NonActive",
+         "description":"[good name]",
+         "creationDate":"2018/02/23 00:00:00",
+         "lastUpdated":"2018/02/20 00:00:00"
+      },
+      "recipient":{  
+         "ID":"201891",
+         "categoryName":"Beneficiary"
+      },
+      "sender":{  
+         "ID":"121",
+         "categoryName":"Custom House"
+      },
+      "thirdPartyRemitter":{  
+         "ID":"200730",
+         "categoryName":"BeneficiaryRemitter"
+      },
+      "thirdPartyInstructorID":"200730",
+      "beneficiaryRemitter":{  
+         "ID":"201194"
+      },
+      "authorizedUser":{  
+         "ID":"201065",
+         "categoryName":"AuthCatName"
+      },
+      "customerID":"201961",
+      "senderBankAccountID":"60606",
+      "recipientBankAccountID":"60608",
+      "remitterBankAccountID":"60607",
+      "intermediaryBankAccountID":"Inter123",
+      "parties":[  
+         {  
+            "ID":"201961",
+            "type":"Customer",
+            "name":{  
+               "name":"[good name]",
+               "alternateName":"[good name]"
+            },
+            "address":{  
+               "line1":"[good name]",
+               "line2":"[good name]",
+               "line3":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceCode":"[good name]",
+               "countryCode":"[good name]",
+               "postalCode":"30890"
+            },
+            "contact":{  
+               "info":"[good name]",
+               "phone":"918378",
+               "additionalPhone":"76872348",
+               "fax":"Custom Fax No",
+               "additionalFax":"Customer Add Fax 84",
+               "email":"OsamaAirlines",
+               "additionalEmail":"OsamaAirlines"
+            },
+            "individual":{  
+               "dateOfBirth":"1975/02/03",
+               "citizenshipCountryCode":"[good name]",
+               "identificationCode":"[good name]",
+               "identificationIssuer":"[good name]",
+               "identificationIssuerCountry":"[good name]",
+               "identificationTypeName":"Ident TypeName"
+            },
+            "company":{  
+               "industryType":"[good name]",
+               "legalName":"[good name]",
+               "tradeName":"[good name]",
+               "customerBusinessType":"[good name]",
+               "incorporationState":"[good name]",
+               "customerCategory":"Client Category - Client Individual",
+               "LEI":"[good name]",
+               "DUNSNumber":"[good name]"
+            },
+            "misc":{  
+               "accountCode":"[good name]",
+               "accountNo":"[good name]",
+               "status":"Active",
+               "individualFlag":"1",
+               "isSWB":"true",
+               "salesforceAMLRiskRating":"High",
+               "complianceCustomerTypeKey":"High",
+               "sourcePlatformID":"10"
+            }
+         },
+         {  
+            "ID":"106892",
+            "type":"ParentCompanyforCustomer",
+            "name":{  
+               "name":"[good name]"
+            },
+            "address":{  
+               "line1":"[good name]",
+               "line2":"[good name]",
+               "line3":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceCode":"[good name]",
+               "countryCode":"[good name]",
+               "postalCode":"30890"
+            }
+         },
+         {  
+            "ID":"106892",
+            "type":"Branch",
+            "name":{  
+               "name":"[good name]"
+            },
+            "address":{  
+               "compositeAddr":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceName":"CA",
+               "countryCode":"US",
+               "postalCode":"30890"
+            },
+            "contact":{  
+               "phone":"[good name]",
+               "fax":"[good name]",
+               "email":"OsamaAirlines"
+            },
+            "company":{  
+               "legalName":"Company Legal Name",
+               "LEI":"Customer LEI"
+            },
+            "misc":{  
+               "status":"Active",
+               "branchCode":"branchCode",
+               "branchType":"branchCode",
+               "owningLegalEntityName":"entity Name",
+               "sourcePlatformID":"10"
+            }
+         },
+         {  
+            "ID":"[good name]",
+            "type":"Beneficiary",
+            "name":{  
+               "name":"[good name]",
+               "alternateName":"[good name]",
+               "alternateShipToName":"[good name]"
+            },
+            "address":{  
+               "line1":"[good name]",
+               "line2":"[good name]",
+               "line3":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceCode":"[good name]",
+               "countryCode":"[good name]",
+               "countryName":"[good name]",
+               "postalCode":"30890"
+            },
+            "contact":{  
+               "info":"[good name]",
+               "phone":"[good name]",
+               "additionalPhone":"[good name]",
+               "fax":"[good name]",
+               "additionalFax":"[good name]",
+               "email":"[good name]",
+               "additionalEmail":"[good name]"
+            },
+            "company":{  
+               "legalName":"[good name]",
+               "tradeName":"[good name]"
+            },
+            "misc":{  
+               "status":"[good name]",
+               "individualFlag":"[good name]",
+               "sourcePlatformID":"10"
+            }
+         },
+         {  
+            "ID":"[good name]",
+            "type":"Remitter",
+            "name":{  
+               "name":"[good name]",
+               "alternateName":"[good name]"
+            },
+            "address":{  
+               "line1":"[good name]",
+               "line2":"[good name]",
+               "line3":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceCode":"[good name]",
+               "countryCode":"[good name]",
+               "postalCode":"30890"
+            },
+            "contact":{  
+               "info":"[good name]",
+               "phone":"[good name]",
+               "additionalPhone":"[good name]",
+               "fax":"[good name]",
+               "additionalFax":"[good name]",
+               "email":"[good name]",
+               "additionalEmail":"[good name]"
+            },
+            "individual":{  
+               "identificationCode":"[good name]",
+               "identificationIssuer":"[good name]",
+               "identificationIssuerCountry":"[good name]",
+               "identificationTypeName":"[good name]"
+            },
+            "misc":{  
+               "status":"[good name]",
+               "individualFlag":"[good name]",
+               "isSWB":"true",
+               "thirdPartyInstructor":true,
+               "beneficiaryRemitter":true,
+               "sourcePlatformID":"10"
+            }
+         },
+         {  
+            "ID":"[good name]",
+            "type":"AuthorizedUser",
+            "name":{  
+               "name":"[good name]"
+            },
+            "address":{  
+               "compositeAddr":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceName":"CA",
+               "countryName":"[good name]"
+            },
+            "contact":{  
+               "email":"[good name]"
+            },
+            "individual":{  
+               "gender":"[good name]",
+               "dateOfBirth":"[good name]",
+               "citizenshipCountryCode":"[good name]",
+               "identificationCode":"[good name]",
+               "identificationIssuer":"[good name]",
+               "identificationIssuerCountry":"[good name]",
+               "identificationTypeName":"[good name]"
+            },
+            "misc":{  
+               "status":"Active",
+               "retailAuthorizedUser":true,
+               "isSWB":"true",
+               "sourcePlatformID":"10"
+            }
+         }
+      ],
+      "bankDetails":[  
+         {  
+            "type":"SenderBank",
+            "accountID":"60606",
+            "accountType":"2",
+            "category":{  
+               "categoryName":"Customer"
+            },
+            "name":"[good name]",
+            "accountNo":"[good name]",
+            "accountStatus":"Active",
+            "address":{  
+               "line1":"[good name]",
+               "line2":"[good name]",
+               "line3":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceCode":"[good name]",
+               "countryCode":"[good name]",
+               "countryName":"[good name]",
+               "postalCode":"411014"
+            },
+            "code":"[good name]",
+            "IBAN":"[good name]",
+            "reference":"[good name]",
+            "beneficiaryID":"201904",
+            "customerID":"201968",
+            "domesticRoutingCD":"23 [good name]",
+            "SWIFTCode":"2323 [good name]",
+            "sourcePlatformID":"10"
+         },
+         {  
+            "type":"RemitterBank",
+            "accountID":"60607",
+            "accountType":"2",
+            "category":{  
+               "categoryName":"Customer"
+            },
+            "name":"[good name]",
+            "accountNo":"[good name]",
+            "accountStatus":"Active",
+            "address":{  
+               "line1":"[good name]",
+               "line2":"[good name]",
+               "line3":"[good name]",
+               "city":"ottawa",
+               "stateOrProvinceCode":"[good name]",
+               "countryCode":"[good name]",
+               "countryName":"[good name]",
+               "postalCode":"411014"
+            },
+            "code":"SnedBan",
+            "IBAN":"[good name]",
+            "reference":"[good name]",
+            "beneficiaryID":"201904",
+            "customerID":"201968",
+            "domesticRoutingCD":"[good name]",
+            "SWIFTCode":"[good name]",
+            "sourcePlatformID":"10"
+         },
+         {  
+            "type":"RecipientBank",
+            "accountID":"60608",
+            "accountType":"2",
+            "accountStatus":"Active",
+            "category":{  
+               "categoryName":"Customer"
+            },
+            "name":"[good name]",
+            "accountNo":"[good name]",
+            "code":"RecBank",
+            "reference":"[good name]",
+            "address":{  
+               "line1":"[good name]",
+               "line2":"[good name]",
+               "line3":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceCode":"[good name]",
+               "countryCode":"[good name]",
+               "countryName":"[good name]",
+               "postalCode":"411014"
+            },
+            "beneficiaryID":"201904",
+            "customerID":"201968",
+            "domesticRoutingCD":"[good name]",
+            "sourcePlatformID":"10",
+            "IBAN":"[good name]",
+            "SWIFTCode":"[good name]"
+         },
+         {  
+            "type":"IntermediaryBank",
+            "accountID":"60609",
+            "accountType":"2",
+            "accountStatus":"Active",
+            "category":{  
+               "categoryName":"Customer"
+            },
+            "name":"[good name]",
+            "accountNo":"[good name]",
+            "code":"InterBank",
+            "reference":"[good name]",
+            "address":{  
+               "line1":"[good name]",
+               "line2":"[good name]",
+               "line3":"[good name]",
+               "city":"[good name]",
+               "stateOrProvinceCode":"[good name]",
+               "countryCode":"[good name]",
+               "countryName":"[good name]",
+               "postalCode":"411014"
+            },
+            "beneficiaryID":"201904",
+            "customerID":"201968",
+            "domesticRoutingCD":"[good name]",
+            "sourcePlatformID":"10",
+            "IBAN":"[good name]",
+            "SWIFTCode":"[good name]"
+         }
+      ]
+   }
+}

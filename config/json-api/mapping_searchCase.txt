@@ -1,0 +1,16 @@
+cases[i].platform:CaseManagement.platform
+cases[i].orderId:CaseManagement.paymentTransaction.txnOrderId
+cases[i].paymentId:CaseManagement.paymentTransaction.txnPaymentId
+cases[i].caseId:CaseManagement.caseId
+cases[i].customerId:CaseManagement.customer.customerId
+cases[i].customerName:CaseManagement.customer.customerName
+cases[i].caseType:CaseManagement.classification
+cases[i].workgroup:CaseManagement.processing_Stage
+cases[i].analyst:CaseManagement.caseAnalyst.lastAssignedUserName
+cases[i].created:CaseManagement.createTimestamp
+cases[i].modified:CaseManagement.modifiedTimestamp
+cases[i].valueDate:CaseManagement.paymentTransaction.expectedValueDate
+cases[i].status:CaseManagement.caseStatus	
+cases[i].disposition:CaseManagement.caseDispo.caseDisposition
+cases[i].currency:CaseManagement.paymentTransaction.txnCurrency
+cases[i].amount:CaseManagement.paymentTransaction.txnAmount

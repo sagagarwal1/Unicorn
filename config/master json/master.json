@@ -1,0 +1,606 @@
+{
+  "messageID": "700026536",
+  "payment": {
+    "sourcePaymentID": "700026536",
+    "platform": "CCT",
+    "sourcePlatformID":"1",
+    "bookingSystemOrderID": "5555",
+    "bookingSystemName": "SPOT System",
+    "orderID": "700026535",
+    "amount": "924647822.00",
+    "currency": "AUD",
+    "feeAmount": "1.0",
+    "feeCurrency": "ANG",
+    "creationDate": "2018/02/23 22:40:33",
+    "creationDateUTC": "2018/02/24 06:40:33",
+    "orderTypeName": "Sell",
+    "itemTypeName": "Order Settlement Payment",
+    "lineItemID": "1",
+    "confirmationNumber": "9405852654",
+    "lastUpdated": "2018/02/22 22:40:33",
+    "lastUpdatedUTC": "2018/02/23 06:40:33",
+    "method": "Draft",
+    "reasonForTransaction": "[Personal reason]",
+    "orderReasonForTransaction": "[order reason for tran]",
+    "receiverInformationText": "[Receiver info text]",
+    "reference": "[Reference123]",
+    "expectedValueDate": "2018/02/22",
+    "deadlineDate": "2018/02/22",
+    "isDoddFrank": "1",
+    "notifiedPerson": {
+      "name": "Madhav",
+      "email": "Madhav.Jadhav@gmail.com"
+    },
+    "byOrderOf": "By order of",
+    "BIC": "BIC234",
+    "yourID": "YourId2345",
+    "WUReceiver": {
+      "name": "Amit Rai",
+      "countryName": "IN",
+      "mobilePhoneNumber": "9960688607"
+    },
+    "lineItemNo": "1",
+    "settlementCurrency": "BMD",
+    "buySell": "Sell",
+    "isOutgoing": "true",
+    "branchID": "59",
+    "delivery": {
+      "ID": "123",
+      "address": {
+        "line1": "55 Brooksby Village Way",
+        "line2": "Near PJ junction",
+        "line3": "P O Box 234",
+        "city": "Danvers",
+        "stateOrProvinceCode": "MA",
+        "countryCode": "US",
+        "postalCode": "1923"
+      },
+      "statusName": "NonActive",
+      "description": "Del Desc",
+      "creationDate": "2018/02/23 00:00:00",
+      "lastUpdated": "2018/02/20 00:00:00"
+    },
+    "recipient": {
+      "ID": "201891",
+      "categoryName": "Beneficiary"
+    },
+    "sender": {
+      "ID": "121",
+      "categoryName": "Custom House"
+    },
+    "thirdPartyRemitter": {
+      "ID": "200730",
+      "categoryName": "BeneficiaryRemitter"
+    },
+    "thirdPartyInstructorID": "200730",
+    "beneficiaryRemitter": {
+      "ID": "201194"
+    },
+    "authorizedUser": {
+      "ID": "201065",
+      "categoryName": "AuthCatName"
+    },
+    "customerID": "201961",
+    "senderBankAccountID": "60606",
+    "recipientBankAccountID": "60608",
+    "remitterBankAccountID": "60607",
+    "intermediaryBankAccountID": "Inter123",
+    "parties": [
+      {
+        "ID": "201961",
+        "type": "Customer",
+        "name": {
+          "name": "Abhishek Mehta",
+          "alternateName": "PBS INTERNATIONAL FREIGHT LTD",
+		  "alternateShipToName":"CustomerAlterName"
+        },
+        "address": {
+          "line1": "House No",
+          "line2": "PO Box",
+          "line3": "123 Cust Add",
+		  "compositeAddr":"compositeAddr",
+          "city": "Washington",
+          "stateOrProvinceCode": "CA",
+		  "stateOrProvinceName":"Canada",
+          "countryCode": "US",
+		  "countryName":"UNITED States Of America",
+          "postalCode": "373132"
+        },
+        "contact": {
+          "info": "CustomerContact",
+          "phone": "918378",
+          "additionalPhone": "76872348",
+          "fax": "Custom Fax No",
+          "additionalFax": "Customer Add Fax 84",
+          "email": "Mehata@gmail.com",
+          "additionalEmail": "Customer additional Email"
+        },
+        "individual": {
+		  "gender":"Male",
+          "dateOfBirth": "1975/02/03",
+          "citizenshipCountryCode": "US",
+          "identificationCode": "Cust Identi Code",
+          "identificationIssuer": "Identifi Issue",
+          "identificationIssuerCountry": "DE",
+          "identificationTypeName": "Ident TypeName"
+        },
+        "company": {
+          "industryType": "ComplianceTool - Individual",
+          "legalName": "Company Legal Name",
+          "tradeName": "Cust Trade Name",
+          "customerBusinessType": "Cust Business Type",
+          "incorporationState": "Incorporation state",
+          "customerCategory": "Client Category - Client Individual",
+          "LEI": "Customer LEI",
+          "DUNSNumber": "C"
+        },
+        "misc": {
+          "accountCode": "Account Code",
+          "accountNo": "Cust Acc No",
+          "status": "Active",
+		  "branchCode":"branchCode",
+		  "branchType":"branchCode",
+          "individualFlag": "1",
+		  "retailAuthorizedUser":true,
+		  "thirdPartyInstructor":true,
+		  "beneficiaryRemitter":true,
+          "isSWB": "true",
+          "salesforceAMLRiskRating": "High",
+          "complianceCustomerTypeKey": "2",
+		  "complianceIndustryTypeKey":"23",
+		  "owningLegalEntityName":"entity Name",
+          "sourcePlatformID": "10"
+        }
+      },
+      {
+	"ID": "106892",
+        "type": "ParentCompanyforCustomer",
+        "name": {
+          "name": "Abhishek Mehta",
+          "alternateName": "PBS INTERNATIONAL FREIGHT LTD",
+		  "alternateShipToName":"CustomerAlterName"
+        },
+        "address": {
+          "line1": "House No., 123, Survey No. 121",
+          "line2": "PO Box",
+          "line3": "123 Cust Add",
+		  "compositeAddr":"compositeAddr",
+          "city": "Washington",
+          "stateOrProvinceCode": "CA",
+		  "stateOrProvinceName":"Canada",
+          "countryCode": "US",
+		  "countryName":"UNITED States Of America",
+          "postalCode": "373132"
+        },
+        "contact": {
+          "info": "CustomerContact",
+          "phone": "918378",
+          "additionalPhone": "76872348",
+          "fax": "Custom Fax No",
+          "additionalFax": "Customer Add Fax 84",
+          "email": "Mehata@gmail.com",
+          "additionalEmail": "Customer additional Email"
+        },
+        "individual": {
+		  "gender":"Male",
+          "dateOfBirth": "1975/02/03",
+          "citizenshipCountryCode": "US",
+          "identificationCode": "Cust Identi Code",
+          "identificationIssuer": "Identifi Issue",
+          "identificationIssuerCountry": "DE",
+          "identificationTypeName": "Ident TypeName"
+        },
+        "company": {
+          "industryType": "ComplianceTool - Individual",
+          "legalName": "Company Legal Name",
+          "tradeName": "Cust Trade Name",
+          "customerBusinessType": "Cust Business Type",
+          "incorporationState": "Incorporation state",
+          "customerCategory": "Client Category - Client Individual",
+          "LEI": "Customer LEI",
+          "DUNSNumber": "C"
+        },
+        "misc": {
+          "accountCode": "Account Code",
+          "accountNo": "Cust Acc No",
+          "status": "Active",
+		  "branchCode":"branchCode",
+		  "branchType":"branchCode",
+          "individualFlag": "1",
+		  "retailAuthorizedUser":true,
+		  "thirdPartyInstructor":true,
+		  "beneficiaryRemitter":true,
+          "isSWB": "true",
+          "salesforceAMLRiskRating": "High",
+          "complianceCustomerTypeKey": "2",
+		  "complianceIndustryTypeKey":"23",
+		  "owningLegalEntityName":"entity Name",
+          "sourcePlatformID": "10"
+        }
+      },
+       
+      {
+	   "ID": "106892",
+        "type": "Branch",
+        "name": {
+          "name": "Abhishek Mehta",
+          "alternateName": "PBS INTERNATIONAL FREIGHT LTD",
+		  "alternateShipToName":"CustomerAlterName"
+        },
+        "address": {
+          "line1": "House No., 123, Survey No. 121",
+          "line2": "PO Box",
+          "line3": "123 Cust Add",
+		  "compositeAddr":"compositeAddr",
+          "city": "Washington",
+          "stateOrProvinceCode": "CA",
+		  "stateOrProvinceName":"Canada",
+          "countryCode": "US",
+		  "countryName":"UNITED States Of America",
+          "postalCode": "373132"
+        },
+        "contact": {
+          "info": "CustomerContact",
+          "phone": "918378",
+          "additionalPhone": "76872348",
+          "fax": "Custom Fax No",
+          "additionalFax": "Customer Add Fax 84",
+          "email": "Mehata@gmail.com",
+          "additionalEmail": "Customer additional Email"
+        },
+        "individual": {
+		  "gender":"Male",
+          "dateOfBirth": "1975/02/03",
+          "citizenshipCountryCode": "US",
+          "identificationCode": "Cust Identi Code",
+          "identificationIssuer": "Identifi Issue",
+          "identificationIssuerCountry": "DE",
+          "identificationTypeName": "Ident TypeName"
+        },
+        "company": {
+          "industryType": "ComplianceTool - Individual",
+          "legalName": "Company Legal Name",
+          "tradeName": "Cust Trade Name",
+          "customerBusinessType": "Cust Business Type",
+          "incorporationState": "Incorporation state",
+          "customerCategory": "Client Category - Client Individual",
+          "LEI": "Customer LEI",
+          "DUNSNumber": "C"
+        },
+        "misc": {
+          "accountCode": "Account Code",
+          "accountNo": "Cust Acc No",
+          "status": "Active",
+		  "branchCode":"branchCode",
+		  "branchType":"branchCode",
+          "individualFlag": "1",
+		  "retailAuthorizedUser":true,
+		  "thirdPartyInstructor":true,		  "beneficiaryRemitter":true,
+          "isSWB": "true",
+          "salesforceAMLRiskRating": "High",
+          "complianceCustomerTypeKey": "2",
+		  "complianceIndustryTypeKey":"23",
+		  "owningLegalEntityName":"entity Name",
+          "sourcePlatformID": "10"
+        }
+      },
+      {
+         "ID": "106892",
+        "type": "Beneficiary",
+        "name": {
+          "name": "Abhishek Mehta",
+          "alternateName": "PBS INTERNATIONAL FREIGHT LTD",
+		  "alternateShipToName":"CustomerAlterName"
+        },
+        "address": {
+          "line1": "House No., 123, Survey No. 121",
+          "line2": "PO Box",
+          "line3": "123 Cust Add",
+		  "compositeAddr":"compositeAddr",
+          "city": "Washington",
+          "stateOrProvinceCode": "CA",
+		  "stateOrProvinceName":"Canada",
+          "countryCode": "US",
+		  "countryName":"UNITED States Of America",
+          "postalCode": "373132"
+        },
+        "contact": {
+          "info": "CustomerContact",
+          "phone": "918378",
+          "additionalPhone": "76872348",
+          "fax": "Custom Fax No",
+          "additionalFax": "Customer Add Fax 84",
+          "email": "Mehata@gmail.com",
+          "additionalEmail": "Customer additional Email"
+        },
+        "individual": {
+		  "gender":"Male",
+          "dateOfBirth": "1975/02/03",
+          "citizenshipCountryCode": "US",
+          "identificationCode": "Cust Identi Code",
+          "identificationIssuer": "Identifi Issue",
+          "identificationIssuerCountry": "DE",
+          "identificationTypeName": "Ident TypeName"
+        },
+        "company": {
+          "industryType": "ComplianceTool - Individual",
+          "legalName": "Company Legal Name",
+          "tradeName": "Cust Trade Name",
+          "customerBusinessType": "Cust Business Type",
+          "incorporationState": "Incorporation state",
+          "customerCategory": "Client Category - Client Individual",
+          "LEI": "Customer LEI",
+          "DUNSNumber": "C"
+        },
+        "misc": {
+          "accountCode": "Account Code",
+          "accountNo": "Cust Acc No",
+          "status": "Active",
+		  "branchCode":"branchCode",
+		  "branchType":"branchCode",
+          "individualFlag": "1",
+		  "retailAuthorizedUser":true,
+		  "thirdPartyInstructor":true,
+		  "beneficiaryRemitter":true,
+          "isSWB": "true",
+          "salesforceAMLRiskRating": "High",
+          "complianceCustomerTypeKey": "2",
+		  "complianceIndustryTypeKey":"23",
+		  "owningLegalEntityName":"entity Name",
+          "sourcePlatformID": "10"
+        }
+      },
+     {
+	   "ID": "106892",
+        "type": "Remitter",
+        "name": {
+          "name": "Abhishek Mehta",
+          "alternateName": "PBS INTERNATIONAL FREIGHT LTD",
+		  "alternateShipToName":"CustomerAlterName"
+        },
+        "address": {
+          "line1": "House No., 123, Survey No. 121",
+          "line2": "PO Box",
+          "line3": "123 Cust Add",
+		  "compositeAddr":"compositeAddr",
+          "city": "Washington",
+          "stateOrProvinceCode": "CA",
+		  "stateOrProvinceName":"Canada",
+          "countryCode": "US",
+		  "countryName":"UNITED States Of America",
+          "postalCode": "373132"
+        },
+        "contact": {
+          "info": "CustomerContact",
+          "phone": "918378",
+          "additionalPhone": "76872348",
+          "fax": "Custom Fax No",
+          "additionalFax": "Customer Add Fax 84",
+          "email": "Mehata@gmail.com",
+          "additionalEmail": "Customer additional Email"
+        },
+        "individual": {
+		  "gender":"Male",
+          "dateOfBirth": "1975/02/03",
+          "citizenshipCountryCode": "US",
+          "identificationCode": "Cust Identi Code",
+          "identificationIssuer": "Identifi Issue",
+          "identificationIssuerCountry": "DE",
+          "identificationTypeName": "Ident TypeName"
+        },
+        "company": {
+          "industryType": "ComplianceTool - Individual",
+          "legalName": "Company Legal Name",
+          "tradeName": "Cust Trade Name",
+          "customerBusinessType": "Cust Business Type",
+          "incorporationState": "Incorporation state",
+          "customerCategory": "Client Category - Client Individual",
+          "LEI": "Customer LEI",
+          "DUNSNumber": "C"
+        },
+        "misc": {
+          "accountCode": "Account Code",
+          "accountNo": "Cust Acc No",
+          "status": "Active",
+		  "branchCode":"branchCode",
+		  "branchType":"branchCode",
+          "individualFlag": "1",
+		  "retailAuthorizedUser":true,
+		  "thirdPartyInstructor":true,
+		  "beneficiaryRemitter":true,
+          "isSWB": "true",
+          "salesforceAMLRiskRating": "High",
+          "complianceCustomerTypeKey": "2",
+		  "complianceIndustryTypeKey":"23",
+		  "owningLegalEntityName":"entity Name",
+          "sourcePlatformID": "10"
+        }
+      },
+      {
+        "ID": "106892",
+        "type": "AuthorizedUser",
+        "name": {
+          "name": "Abhishek Mehta",
+          "alternateName": "PBS INTERNATIONAL FREIGHT LTD",
+		  "alternateShipToName":"CustomerAlterName"
+        },
+        "address": {
+          "line1": "House No., 123, Survey No. 121",
+          "line2": "PO Box",
+          "line3": "123 Cust Add",
+		  "compositeAddr":"compositeAddr",
+          "city": "Washington",
+          "stateOrProvinceCode": "CA",
+		  "stateOrProvinceName":"Canada",
+          "countryCode": "US",
+		  "countryName":"UNITED States Of America",
+          "postalCode": "373132"
+        },
+        "contact": {
+          "info": "CustomerContact",
+          "phone": "918378",
+          "additionalPhone": "76872348",
+          "fax": "Custom Fax No",
+          "additionalFax": "Customer Add Fax 84",
+          "email": "Mehata@gmail.com",
+          "additionalEmail": "Customer additional Email"
+        },
+        "individual": {
+		  "gender":"Male",
+          "dateOfBirth": "1975/02/03",
+          "citizenshipCountryCode": "US",
+          "identificationCode": "Cust Identi Code",
+          "identificationIssuer": "Identifi Issue",
+          "identificationIssuerCountry": "DE",
+          "identificationTypeName": "Ident TypeName"
+        },
+        "company": {
+          "industryType": "ComplianceTool - Individual",
+          "legalName": "Company Legal Name",
+          "tradeName": "Cust Trade Name",
+          "customerBusinessType": "Cust Business Type",
+          "incorporationState": "Incorporation state",
+          "customerCategory": "Client Category - Client Individual",
+          "LEI": "Customer LEI",
+          "DUNSNumber": "C"
+        },
+        "misc": {
+          "accountCode": "Account Code",
+          "accountNo": "Cust Acc No",
+          "status": "Active",
+		  "branchCode":"branchCode",
+		  "branchType":"branchCode",
+          "individualFlag": "1",
+		  "retailAuthorizedUser":true,
+		  "thirdPartyInstructor":false,
+		  "beneficiaryRemitter":true,
+          "isSWB": "true",
+          "salesforceAMLRiskRating": "High",
+          "complianceCustomerTypeKey": "2",
+		  "complianceIndustryTypeKey":"23",
+		  "owningLegalEntityName":"entity Name",
+          "sourcePlatformID": "10"
+        }
+      }
+    ],
+    "bankDetails": [
+      {
+        "type": "SenderBank",
+        "accountID": "60606",
+        "accountType": "2",
+        "accountStatus": "Active",
+        "category": {
+          "categoryName": "Customer"
+        },
+        "name": "Sender Bank",
+        "accountNo": "902727272189",
+        "code": "SnedBan",
+        "reference": "[Bank refe]",
+        "address": {
+          "line1": "Kolhapur",
+          "line2": "123 PO Box",
+          "line3": "563 Pune rd",
+          "city": "ottawa",
+          "stateOrProvinceCode": "CA",
+          "countryCode": "US",
+          "countryName": "UNITED STATES",
+          "postalCode": "411014"
+        },
+        "beneficiaryID": "201904",
+        "customerID": "201968",
+        "domesticRoutingCD": "RoutCode",
+        
+        "IBAN": "123",
+        "SWIFTCode": "12345"
+      },
+      {
+        "type": "RemitterBank",
+        "accountID": "60607",
+        "accountType": "2",
+        "accountStatus": "Active",
+        "category": {
+          "categoryName": "Customer"
+        },
+        "name": "Sender Bank",
+        "accountNo": "902727272189",
+        "code": "SnedBan",
+        "reference": "[Bank refe]",
+        "address": {
+          "line1": "Kolhapur",
+          "line2": "123 PO Box",
+          "line3": "563 Pune rd",
+          "city": "ottawa",
+          "stateOrProvinceCode": "CA",
+          "countryCode": "US",
+          "countryName": "UNITED STATES",
+          "postalCode": "411014"
+        },
+        "beneficiaryID": "201904",
+        "customerID": "201968",
+        "domesticRoutingCD": "RoutCode",
+        
+        "IBAN": "123",
+        "SWIFTCode": "12345"
+      },
+      {
+        "type": "RecipientBank",
+        "accountID": "60608",
+        "accountType": "2",
+        "accountStatus": "Active",
+        "category": {
+          "categoryName": "Customer"
+        },
+        "name": "Sender Bank",
+        "accountNo": "902727272189",
+        "code": "SnedBan",
+        "reference": "[Bank refe]",
+        "address": {
+          "line1": "Kolhapur",
+          "line2": "123 PO Box",
+          "line3": "563 Pune rd",
+          "city": "ottawa",
+          "stateOrProvinceCode": "CA",
+          "countryCode": "US",
+          "countryName": "UNITED STATES",
+          "postalCode": "411014"
+        },
+        "beneficiaryID": "201904",
+        "customerID": "201968",
+        "domesticRoutingCD": "RoutCode",
+        
+        "IBAN": "123",
+        "SWIFTCode": "12345"
+      },
+      {
+        "type": "IntermediaryBank",
+        "accountID": "60609",
+        "accountType": "2",
+        "accountStatus": "Active",
+        "category": {
+          "categoryName": "Customer"
+        },
+        "name": "Sender Bank",
+        "accountNo": "902727272189",
+        "code": "SnedBan",
+        "reference": "[Bank refe]",
+        "address": {
+          "line1": "Kolhapur",
+          "line2": "123 PO Box",
+          "line3": "563 Pune rd",
+          "city": "ottawa",
+          "stateOrProvinceCode": "CA",
+          "countryCode": "US",
+          "countryName": "UNITED STATES",
+          "postalCode": "411014"
+        },
+        "beneficiaryID": "201904",
+        "customerID": "201968",
+        "domesticRoutingCD": "RoutCode",
+        
+        "IBAN": "123",
+        "SWIFTCode": "12345"
+      }
+  ]
+}
+}
+

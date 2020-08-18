@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+target
+build
+out
+AclaimUiAuto.iml
+AclaimUiAuto.ipr
+AclaimUiAuto.iws
+AclaimUiAuto_main.iml
+AclaimUiAuto_test.iml
+.gradle
+.allure
+.idea
+gradle
+
+
+

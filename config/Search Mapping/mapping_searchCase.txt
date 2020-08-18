@@ -1,0 +1,5 @@
+cases[0].paymentId:CaseManagement.paymentTransaction.txnPaymentId
+cases[0].orderId:CaseManagement.paymentTransaction.txnOrderId
+cases[0].amount:CaseManagement.paymentTransaction.txnAmount
+cases[0].caseId:CaseManagement.caseId
+cases[0].caseKey:CaseManagement.caseKey

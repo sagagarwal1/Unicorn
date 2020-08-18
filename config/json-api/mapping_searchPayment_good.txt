@@ -1,0 +1,10 @@
+payments[0].platform:platform
+payments[0].orderId:orderID
+payments[0].paymentId:sourcePaymentID
+payments[0].customerId:customerID
+payments[0].customer:name
+payments[0].created:creationDate
+payments[0].valueDate:expectedValueDate
+payments[0].currency:currency
+payments[0].amount:amount
+payments[0].country:countryCode

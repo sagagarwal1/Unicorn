@@ -1,0 +1,139 @@
+buildscript {
+    println("Project Home Dir: " + System.getProperty("user.dir"))
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.qameta.allure:allure-gradle:<latest>"
+    }
+}
+plugins {
+    id 'java'
+    id("io.qameta.allure") version "2.5"
+}
+
+group 'com.wu'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'base'
+apply plugin: 'io.qameta.allure'
+
+sourceCompatibility = 1.8
+defaultTasks 'clean', 'build', 'test'
+
+compileJava.options.debugOptions.setDebugLevel("source,lines,vars")
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    dependencies {
+        compile group: 'io.qameta.allure', name: 'allure-cucumber4-jvm', version: '2.10.0'
+        compile group: 'net.serenity-bdd', name: 'serenity-core', version: '2.0.41'
+        compile group: 'net.serenity-bdd', name: 'serenity-rest-assured', version: '2.0.41'
+        compile group: 'org.json', name: 'json', version: '20180813'
+        compile group: 'com.couchbase.client', name: 'java-client', version: '2.7.9'
+        compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.13'
+        compile group: 'com.microsoft.sqlserver', name: 'mssql-jdbc', version: '6.4.0.jre8'
+        compile group: 'com.github.wnameless', name: 'json-flattener', version: '0.5.0'
+        compile group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.10.0'
+        compile group: 'net.masterthought', name: 'cucumber-reporting', version: '4.5.1'
+        compile group: 'com.jayway.jsonpath', name: 'json-path', version: '2.1.0'
+        compile group: 'io.cucumber', name: 'cucumber-java', version: '4.2.6'
+        compile group: 'io.appium', name: 'java-client', version: '7.0.0'
+        compile group: 'org.testng', name: 'testng', version: '6.14.3'
+        compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+        compile group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
+        compile group: 'com.github.stephenc.monte', name: 'monte-screen-recorder', version: '0.7.7.0'
+        compile group: 'log4j', name: 'log4j', version: '1.2.17'
+        compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1.1'
+        compile group: 'io.cucumber', name: 'cucumber-testng', version: '4.2.6'
+        compile group: 'org.slf4j', name: 'slf4j-api', version: '1.8.0-beta4'
+        compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.8.0-beta4'
+        compile group: 'com.fasterxml', name: 'jackson-module-json-org', version: '0.9.1'
+        compile group: 'com.jcraft', name: 'jsch', version: '0.1.55'
+        compile group: 'com.opencsv', name: 'opencsv', version: '5.0'
+        compile group: 'javax.mail', name: 'mail', version: '1.4.1'
+    }
+}
+
+project.ext {
+    userHome = System.getProperty("user.dir")
+}
+
+clean.doFirst {
+    File target = file(userHome + "\\target")
+    if (target.exists()) {
+        target.deleteDir()
+    }
+}
+
+allure {
+    version = '2.8.1'
+    autoconfigure = false
+    aspectjweaver = true
+    println("Allure result dir:" + userHome + "\\target\\allure-results")
+    resultsDir = file(userHome + "\\target\\allure-results")
+    reportDir = file(userHome + "\\target\\allure-report")
+
+    useCucumberJVM {
+        version = '2.0-BETA10'
+    }
+    allureJavaVersion = '2.0-BETA9'
+    downloadLink = 'https://dl.bintray.com/qameta/generic/io/qameta/allure/allure/2.7.0/allure-2.7.0.zip'
+    downloadLink = 'https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.8.1/allure-commandline-2.8.1.zip'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', 'src/test/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources', 'src/test/resources']
+        }
+    }
+}
+
+/*jar {
+    baseName = 'aclaimUiAuto'
+    version = '1.0'
+    manifest {
+        attributes "Main-Class": 'com.wu.MainClass'
+
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    exclude 'META-INF/*.RSA', 'META-INF/*.SF', 'META-INF/*.DSA'
+}*/
+task run(type: Test) {
+    if (project.hasProperty("test_filters")) {
+        systemProperties["test_filters"] = "$test_filters"
+    }
+    if (project.hasProperty("isAPIOnly")) {
+        systemProperties["isAPIOnly"] = "$isAPIOnly"
+    }
+    if (project.hasProperty("updateJira")) {
+        systemProperties["updateJira"] = "$updateJira"
+    }
+    if (project.hasProperty("jiraTestCycleName")) {
+        systemProperties["jiraTestCycleName"] = "$jiraTestCycleName"
+    }
+    if (project.hasProperty("aclaimEnvironment")) {
+        systemProperties["aclaimEnvironment"] = "$aclaimEnvironment"
+    }
+    testLogging {
+        exceptionFormat = 'full'
+        events "passed", "skipped", "failed", "standard_out"//, "standard_out" "started",
+        useTestNG() {
+            options.setConfigFailurePolicy 'skip'//'continue'
+            useDefaultListeners = true
+        }
+    }
+}
+

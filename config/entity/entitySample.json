@@ -1,0 +1,68 @@
+{
+  "EntityCaseManagement": {
+    "createdTimestamp": "2019-08-19T11:21:39.218Z",
+    "documentType": "Entity",
+    "entity": {
+      "accountId": "FT_qatest020520",
+      "address": {
+        "city": "",
+        "countryCode": "US",
+        "countryName": "United States",
+        "line1": "1152 15th Street, NWWashington, DC 20005",
+        "line2": "",
+        "line3": "",
+        "postalCode": "",
+        "province": "",
+        "state": "  "
+      },
+      "clientId": 0,
+      "createDate": "2011-02-04T22:21:46.000Z",
+      "customerDocId": "CUS#0_20190819112139218",
+      "entityId": 0,
+      "entityType": "Customer",
+      "extractDate": "",
+      "individual": {
+        "countryOfBirth": "",
+        "dateOfBirth": "",
+        "entityFlagIndividual": null,
+        "passportNum": "",
+        "placeOfBirth": ""
+      },
+      "lastUpdateDate": "2011-02-04T22:21:46.000Z",
+      "misc": {
+        "data1": "",
+        "data2": "",
+        "data3": "",
+        "data4": "",
+        "data5": ""
+      },
+      "name": {
+        "doingBusinessAs": "",
+        "name": "Travelex Canada Ltd."
+      },
+      "odsLastExtractedDate": "2019-04-12T08:47:19.147Z",
+      "otherIds": {
+        "companyTaxId": "",
+        "easId": "",
+        "primaryId": "",
+        "primaryIdType": "",
+        "secondaryId": "",
+        "secondaryIdType": "",
+        "swiftAddressBICCode": ""
+      },
+      "pkey": "CUS#0",
+      "platform": "CCT",
+      "region": {
+        "branchCountryCode": "US",
+        "code": "North America"
+      },
+      "salesforceRole": "",
+      "status": {
+        "active": true,
+        "deleted": false
+      }
+    },
+    "latestVersion": true,
+    "modifiedTimestamp": "2019-08-19T11:21:39.218Z"
+  }
+}
